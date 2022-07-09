@@ -70,6 +70,7 @@ print(id(ar3))
 
 print(np.ones(9, dtype=int).astype(float))   # 转换元素类型
 
+<<<<<<< HEAD
 z1 = np.vstack((a1, a2))
 print(z1)   # 垂直对接 列数要一样
 z = np.hstack((a1, a2))
@@ -79,4 +80,6 @@ print(np.vsplit(z1 ,2))  # 垂直切分
 
 
 
+=======
+>>>>>>> 9581f5bdf70009e6f13abc057161653c57d02f91
 

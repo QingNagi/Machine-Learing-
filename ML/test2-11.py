@@ -8,7 +8,10 @@ housing = pd.read_csv("housing.csv")
 from sklearn.model_selection import StratifiedShuffleSplit
 from pandas.plotting import scatter_matrix
 from IPython.display import display
+<<<<<<< HEAD
 from pandas.plotting import scatter_matrix
+=======
+>>>>>>> 9581f5bdf70009e6f13abc057161653c57d02f91
 
 #def split_train_test(data, test_ratio):
 #   shuffled_indices = np.random.permutation(len(data))
@@ -56,6 +59,7 @@ print(strat_train_set["income_cat"].value_counts() / len(strat_test_set))'''
 plt.legend()'''
 
 corr_matrix = housing.corr()
+<<<<<<< HEAD
 display(corr_matrix["median_house_value"].sort_values(ascending=False))     # 寻找相关系数 （皮尔逊r）
 
 
@@ -68,3 +72,7 @@ plt.show()
 
 
 
+=======
+display(corr_matrix["median_house_value"].sort_values(ascending=False))
+plt.show()
+>>>>>>> 9581f5bdf70009e6f13abc057161653c57d02f91
